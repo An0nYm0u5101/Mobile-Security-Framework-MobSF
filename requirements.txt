@@ -6,3 +6,4 @@ configparser==3.5.0
 pdfkit==0.6.1
 lxml==4.1.1
 requests==2.18.4
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
