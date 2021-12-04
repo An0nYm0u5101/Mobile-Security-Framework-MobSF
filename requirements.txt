@@ -1,8 +1,9 @@
-Django==1.11.7
-tornado==4.5.2
-pyOpenSSL==17.3.0
-rsa==3.4.2
+Django==2.2.24
+tornado==5.1
+pyOpenSSL==17.5.0
+rsa==4.7
 configparser==3.5.0
 pdfkit==0.6.1
-lxml==4.1.1
-requests==2.18.4
+lxml==4.6.3
+requests==2.20
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
